@@ -1,0 +1,131 @@
+body{
+	background-image:url('/wizards/img/bg.jpg');
+	background-repeat:no-repeat;
+	background-position:center auto;
+}
+
+#loader{
+	background-image:url('/wizards/img/loader.gif');
+	background-repeat: no-repeat; 
+	background-position: center center;
+	width:100px;
+	height:100px;
+	position:absolute;
+	background-color:#000;
+	left:50%;
+	top:50%;
+	margin:-50px 0px 0px -50px;
+	border-radius:10px;
+	display:none;
+}
+
+body.loading #loader{
+	display:block;
+}
+
+body.loading #content{
+	display:none;
+}
+
+#header{
+	background-color:rgba(0,0,0,0.5);
+	color:#fff;
+	font-family: 'HelveticaNeue-Thin';
+	padding-bottom:15px;
+}
+
+#header h3{
+	font-size:36px;
+	text-align: center;
+	margin:0px;
+	font-family: 'HelveticaNeue-Thin';
+	letter-spacing;:-4px;
+	margin-top:15px;
+}
+
+#header ul{
+	margin:10px 0px 0px 0px;
+	list-style-type:none;
+}
+
+#header ul li{
+	float:left;
+	font-size:16px;
+	width:28%;
+	padding:3px 0px 3px 12%;
+	margin:0px 5%;
+}
+
+.mana{
+	background-image:url('/wizards/img/mana.png');
+	background-repeat: no-repeat;
+	background-size:25px 25px;
+}
+
+.gold{
+	background-image:url('/wizards/img/coin.png');
+	background-repeat: no-repeat;
+	background-size:25px 25px;
+}
+
+.swipe {
+	margin-top:40px;
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
+}
+
+.spell{
+
+}
+
+.spell-content{
+	padding:20px;	
+	text-align: center;
+	color:#fff;
+	font-family: 'HelveticaNeue-Thin';
+}
+
+.spell-content img{
+	width:100px;
+	margin:0px auto;
+	display:block;
+}
+
+.spell-content h3{
+	margin-top:0px;
+}
+
+.spell-cast-btn{
+	font-family: 'HelveticaNeue-Thin';
+	color:#fff;
+	padding:15px;
+	text-align: center;
+	font-size:36px;
+	background-color:rgba(0,0,0,0.5);
+}
+
+.info{
+	color:#fff;
+	font-family: 'HelveticaNeue-Thin';
+	font-size:12px;	
+	position: absolute;
+	bottom:3px;
+	left:5px;
+}
+
+#message{
+	color:#fff;
+	font-family: 'HelveticaNeue-Thin';
+	font-size:16px;	
+	text-align: center;
+}
